@@ -33,3 +33,21 @@
     background: url(../assets/Pesquisa.svg) no-repeat;
     background-position: 1em;
 }
+
+@media screen and (min-width: 1024px){
+    .banner {
+        padding: 5em;
+    }
+
+    .banner__titulo {
+        font-size: 2.25rem;
+    }
+
+    .banner__pesquisa {
+        width: 45%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 3em;
+    }
+}
