@@ -27,7 +27,7 @@
     background: var(--branco-header);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin: 1.25em 1.5em 1.25em 1.5em;
+    margin: 1em;
     padding: 1em;
 }
 
@@ -95,7 +95,46 @@
     }
 
     .card {
-        width: 80%;
+        width: 50%;
         margin: 2.5em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrosel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        padding: 0;
+    }
+
+    .swiper {
+        width: 45%;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+        margin-top: 3em;
+    }
+
+    .carrosel__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 55%;
     }
 }
